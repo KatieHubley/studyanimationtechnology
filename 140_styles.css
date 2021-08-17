@@ -80,6 +80,7 @@ header li {
 	font-size: 3vw;
 	text-transform: uppercase;
 	letter-spacing: .01em;
-	width: 20%;
-	padding: 1.5%;
+	width: 24%;
+	text-align: center;
+	
 }
