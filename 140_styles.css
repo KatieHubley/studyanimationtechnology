@@ -20,6 +20,7 @@ font-style: normal;
 
 a:link, a:visited {
 	color: #6A63A6;
+	font-weight: 500;
 }
 
 header h1 {
@@ -58,7 +59,13 @@ header ul{
 	clear: both;
   	
 }
-
+.diagram {
+	width: 100%;
+}
+.diagram img {
+	width: 100%;
+	height: auto;
+}
 footer ul {
 	
       column-count: 2;
@@ -83,4 +90,8 @@ header li {
 	width: 24%;
 	text-align: center;
 	
+}
+
+ul {
+	list-style-type: circle;
 }
