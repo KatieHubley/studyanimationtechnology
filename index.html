@@ -7,13 +7,11 @@
 <style type="text/css">
 	body {
 	font-family: roboto, sans-serif;
-font-weight: 200;
-
-font-style: normal;
+	font-weight: 200;
+	font-style: normal;
 	margin: 0;
 	line-height: 1.5em;
 }
-
 
 .container {
 	width: 80%;
@@ -50,6 +48,14 @@ header h2 {
   -webkit-text-fill-color: transparent; margin-bottom: 1em; margin-top: 1em;
 }
 
+	h4 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	p {
+		margin-top: 0px;
+	}
 header p {
 	margin-top: 0;
 }
@@ -74,13 +80,15 @@ footer ul {
 	
       column-count: 2;
       font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
-        font-size: 90%;
+		font-weight: 300;
+       font-size: 90%;
     
 }
 
 .jedi {
 	font-size: 2vw;
+	margin-bottom: 50px;
+	font-weight: 400;
 }
 .caption {
 	font-size: 60%; line-height: 1.1em; margin-top: 20px; margin-bottom: 0px;font-family: 'Roboto Condensed', sans-serif; 
@@ -99,6 +107,37 @@ header li {
 ul {
 	list-style-type: circle;
 }
+	
+	.requirements {
+		column-count: 3;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.units {
+		column-count: 2;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.unitcontainer {
+		-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+	}
+	
+	@media only screen and (max-width: 800px){
+		.requirements {
+			column-count: 2;
+			margin: 0;
+		}
+		.units {
+			column-count: 1;
+			margin: 0;
+		}
+		
+	}
 	</style>
 <link rel="stylesheet" href="https://use.typekit.net/ayy4olp.css">
 	
@@ -675,7 +714,7 @@ ul {
 <g>
 </g>
 </svg>
-	</div><p>Montgomery College is a welcoming institution that is proud to represent more than 135 countries, students of all ages and backgrounds. As a community, we are committed to diversity, inclusion, and equity in education.  At Montgomery College, we aspire to be <strong>JEDIs</strong> in our treatment of students, committed to:
+	</div><p><strong>Montgomery College</strong> is a welcoming institution that is proud to represent more than 135 countries, students of all ages and backgrounds. As a community, we are committed to diversity, inclusion, and equity in education.  At Montgomery College, we aspire to be <strong>JEDIs</strong> in our treatment of students, committed to:
 	</p>
 	
 	<ul class="jedi">
@@ -694,7 +733,7 @@ ul {
 <section style="clear: both;">
 
 	<h3 style="background-color:#423D6C; color: white; padding: 10px; border-radius: 3px;">FALL 2021 COURSE INFORMATION</h3> 
-	<h4 style="margin-top: 0;">Once Registered for the class: 1. Login to MyMC. 2. Select BlackBoard. 3. Select GDES140 BlackBoard Section. 4. Select Course Content</h4>
+	<h4>Once Registered for the class: 1. Login to MyMC. 2. Select BlackBoard. 3. Select GDES140 BlackBoard Section. 4. Select Course Content</h4>
 	<div class="diagram"><img src="diagram-blackboard.jpg" width="3492" height="1858" alt=""/></div>
 <h3 style="background-color:#423D6C; color: white; padding: 10px; border-radius: 3px;">STUDENT WORK GALLERY FALL 2021</h3>
 	<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/wa2xv83hcdxgqjxh" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
@@ -704,7 +743,7 @@ ul {
 	    
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">COURSE MATERIALS</h3>
 	<h4>Blackboard Course Website</h4>
-	<ul>
+	<ul style="margin-top: 10px;">
 		<li>Login to MyMC</li> 
 	  	<li>Select Blackboard</li> 
 	    <li>Select Our Class Section</li>
@@ -712,7 +751,7 @@ ul {
 	
 	
 	
-	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">COURSE OUTCOMES</h4>
+	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">COURSE OUTCOMES</h3>
 	<ul>
 		<li>Discuss and employ basic principles of animation.</li>
 	   	<li>Discuss business practices and process in the animation industry.</li>
@@ -735,154 +774,181 @@ ul {
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">STUDENT EVALUATION</h3>
 	
 	<p>Login to Blackboard Course Site for Due Dates this Semester</p>
+<div class="requirements">	
+	<h4>Character Face Designs</h4>
+	<p>25 points </p>
 	
-	<h4 style="margin-bottom: 2px;">Character Face Designs</h4>
-	<p style="margin-top: 0px;">25 points </p>
+	<h4>Ball Animation Exercise </h4>
+	<p>25 points </p>
 	
-	<h4 style="margin-bottom: 2px;">Ball Animation Exercise </h4>
-	<p style="margin-top: 0px;">25 points </p>
+	<h4>Stop-Motion Animation </h4>
+	<p>100 points</p>
 	
-	<h4 style="margin-bottom: 2px;">Stop-Motion Animation* </h4>
-	<p style="margin-top: 0px;">100 points</p>
+	<h4>Storyboard Practice </h4>
+	<p>25 points  |  Due 09/15/21</p>
 	
-	<h4 style="margin-bottom: 2px;">Storyboard Practice </h4>
-	<p style="margin-top: 0px;">25 points  |  Due 09/15/21</p>
-	
-	<h4 style="margin-bottom: 2px;">Story &amp; Story Board 
+	<h4>Story &amp; Story Board 
 	</h4>
-	<p style="margin-top: 0px;">100 points</p>
+	<p>100 points</p>
 	
-	<h4 style="margin-bottom: 2px;">Blinks &amp; Dialogue
+	<h4>Blinks &amp; Dialogue
 	</h4>
-	<p style="margin-top: 0px;">50 points</p>
+	<p>50 points</p>
 	
-	<h4 style="margin-bottom: 2px;">Character Walk Cycle 
+	<h4>Character Walk Cycle 
 	</h4>
-	<p style="margin-top: 0px;">100 points</p>
+	<p>100 points</p>
 	
-	<h4 style="margin-bottom: 2px;">Final Animation
+	<h4>Final Animation
 	</h4>
-	<p style="margin-top: 0px;">100 points</p>
+	<p>100 points</p>
 	
-	<h4 style="margin-bottom: 2px;">Participation
+	<h4>Participation*
 	</h4>
-	<p style="margin-top: 0px;">50 points</p>
+	<p>50 points</p>
 	
-	<p style="font-size: 80%;">*Participation points are earned through contribution to online class discussions and posts on class work as well as attendance at office hours and/or scheduled individual or group meetings.  </p>
+		
+</div>
+	
+	<p>*Participation points are earned through contribution to online class discussions and posts on class work as well as attendance at office hours and/or scheduled individual or group meetings.  </p>
+</section>
+			
+<section>
+
 	
 	<h4>Grading Scale: </h4>
 	<p>To calculate your grade, divide your points earned by points possible. Points earned are entered on Blackboard Grade center. 
 	<p>A 90 &nbsp;    B 80  &nbsp;    C 70 &nbsp;    D 60  &nbsp;   F 0-59</p>
 	</p>
-	
-</section>
+</section>	
+
 
 <section>
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">CLASS OUTLINE</h3>
 	<p><em>May change due to overall class progress or advances in technology/emerging standards. 
 	</em></p>
-	<h4 style="margin:0;">Unit 1: Tricking the eye: the illusion of movement in animation. 
+	
+	<div class="units">
+		
+	<div class="unitcontainer">
+		<h4>Unit 1: Tricking the eye: the illusion of movement in animation. 
 	</h4>
 	
 	<p>Animation Basics: Squash and Stretch, Arcs of Motion and Key Framing; Examples of course assignments</p>
-	
-	<h4 style="margin:0;">Unit 2: Understanding Spacing and Timing</h4>
+	</div>
+		
+	<div class="unitcontainer">
+	<h4>Unit 2: Understanding Spacing and Timing</h4>
 	<p>Examine extremes (key frames), and in-betweens for animation</p>
+		</div>
 	
-	<h4 style="margin:0;">Unit 3: The In-between in Relation to Movement &amp; Timing 
-</h4>
+		<div class="unitcontainer">
+	<h4>Unit 3: The In-between in Relation to Movement &amp; Timing 
+	</h4>
 	<p> Slow-in; slow-out; The Settle; Examination of Both Commercial and Independent Animated Works; Suspension of Disbelief</p>
+		</div>
+		<div class="unitcontainer">	
+	<h4>Unit 4: Animating weight, emotion, and environment</h4>
+	<p>Animating/Implying Weight, Story (story arcs), Character Design and Development, Creating Personality/Showing Emotion Through Action; Introduction to key character expressions and movements such as dialogue and walk cycle</p></div>
 	
-	<h4 style="margin:0;">Unit 4: Animating weight, emotion, and environment</h4>
-	<p>Animating/Implying Weight, Story (story arcs), Character Design and Development, Creating Personality/Showing Emotion Through Action; Introduction to key character expressions and movements such as dialogue and walk cycle</p>
-	
-	<h4 style="margin:0;">Unit 5: Framing: Shot composition
+		<div class="unitcontainer">
+	<h4>Unit 5: Framing: Shot composition
 	</h4>
 	
-	<p>The Camera in animation; Framing/Composition for Shots; Pre-Visualization Techniques for Animation</p>
+	<p>The Camera in animation; Framing/Composition for Shots; Pre-Visualization Techniques for Animation</p></div>
 	
-	<h4 style="margin:0;">Unit 6: Shot breakdown (types of shots), storyboarding fundamentals  </h4>
+		<div class="unitcontainer">
+	<h4>Unit 6: Shot breakdown (types of shots), storyboarding fundamentals  </h4>
 	<p>Observe Common/Shared Elements Between Film and Animation, Types of Shots, Fundamentals of Editing in Animation (organizing shots and cuts for effective storytelling), Storyboarding
-	</p>
+			</p></div>
 	
-	<h4 style="margin:0;">Unit 7: Combining Techniques 
+		<div class="unitcontainer">
+	<h4>Unit 7: Combining Techniques 
 	</h4>
 	<p>Digital Animation Techniques, Mixing Mediums/techniques, Working with Timelines
-	</p>
-	
-	<h4 style="margin:0;">Unit 8: Creating/Preparing Artwork for Animation
+			</p></div>
+	<div class="unitcontainer">
+	<h4>Unit 8: Creating/Preparing Artwork for Animation
 	</h4>
 	<p>Digital and Traditional Techniques for Creating Source Artwork, Organizing and Preparing Artwork for Animation, Discuss Drawing and Preparing Characters/Environments in Both a Tactile and Digital Space 
-	</p>
+		</p></div>
 	
-	<h4 style="margin:0;">Unit 9: Character Development &amp; Research; Walk Cycle Finalization 
+		<div class="unitcontainer">
+	<h4>Unit 9: Character Development &amp; Research; Walk Cycle Finalization 
 	</h4>
 	<p>Research for Developing Story/Ideas; creating character walk cycles
 	</p>
-	
-	<h4 style="margin:0;">Unit 10: Storyboard to Motion: Setting up scenes for final project 
+		</div>
+	<div class="unitcontainer">
+	<h4>Unit 10: Storyboard to Motion: Setting up scenes for final project 
 	</h4>
 	<p> Set up and planning scenes for your final animations</p>
-	
-	<h4 style="margin:0;">Unit 11: Rigging Characters 
+		</div>
+		
+		<div class="unitcontainer">
+	<h4>Unit 11: Rigging Characters 
 	</h4>
 	<p>Creating a layered, comprehensive and effective character rigs as an approach to preparing our characters for animation
-	</p>
+			</p></div>
 	
-	<h4 style="margin:0;">Unit 12: Backgrounds &amp; Typography
+		<div class="unitcontainer">
+	<h4>Unit 12: Backgrounds &amp; Typography
 	</h4>
 	<p>Managing assets; Working with moving type &amp; creating titles for animation
-	</p>
+			</p></div>
 	
-	<h4 style="margin:0;">Unit 13: Adding music / sound effects
+		<div class="unitcontainer">
+	<h4>Unit 13: Adding music / sound effects
 	</h4>
 	<p>Adding sound to the timeline and matching that sound to visual events
-	</p>
+			</p></div>
 	
-	<h4 style="margin:0;">Unit 14: Editing 
+		<div class="unitcontainer">
+	<h4>Unit 14: Editing 
 	</h4>
-	<p> Lengthening, shortening, adding, removing scenes and frames, so that it best supports the story’s narrative. </p>
+	<p> Lengthening, shortening, adding, removing scenes and frames, so that it best supports the story’s narrative. </p></div>
 	
-	<h4 style="margin:0;">Unit 15: Final Projects
+		<div class="unitcontainer">
+	<h4>Unit 15: Final Projects
 	</h4>
 	<p>Presentations of final animation projects and class discussion.  
-	</p>
-	
+			</p></div>
+	</div>
 </section>
 
 <section>
 	
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">STUDENT INFORMATION &amp; RESOURCES
 	</h3>
-	<h4 style="margin:0;">Read Additional Syllabus Information: 
+	<h4>Read Additional Syllabus Information: 
 	</h4>
-	<p><a href="https://www.montgomerycollege.edu/admissions-registration/student-resources/syllabus-resource-list.html" target="_blank">https://www.montgomerycollege.edu/admissions-registration/student-resources/syllabus-resource-list.html</a></p>
+	<p style="margin-top: 5px;"><a href="https://www.montgomerycollege.edu/admissions-registration/student-resources/syllabus-resource-list.html" target="_blank">https://www.montgomerycollege.edu/admissions-registration/student-resources/syllabus-resource-list.html</a></p>
 	
-	<h4 style="margin:0;">LinkedIn Learning:</h4>
+	<h4>LinkedIn Learning:</h4>
 	
-	<p><a href="https://www.linkedin.com/learning (login with your MC Email address for access) " target="_blank">https://www.linkedin.com/learning (login with your MC Email address for access) </a></p>
+	<p style="margin-top: 5px;"><a href="https://www.linkedin.com/learning (login with your MC Email address for access) " target="_blank">https://www.linkedin.com/learning (login with your MC Email address for access) </a></p>
 	
-	<h4 style="margin:0;">Resilient MC:</h4>
-	<p><a href="https://www.montgomerycollege.edu/resilient-mc/index.html" target="_blank">https://www.montgomerycollege.edu/resilient-mc/index.html</a></p>
+	<h4>Resilient MC:</h4>
+	<p style="margin-top: 5px;"><a href="https://www.montgomerycollege.edu/resilient-mc/index.html" target="_blank">https://www.montgomerycollege.edu/resilient-mc/index.html</a></p>
 	
-	<h4 style="margin:0;">Additional Student Resources:</h4>
+	<h4>Additional Student Resources:</h4>
 	
-	<p><a href="https://www.montgomerycollege.edu/coronavirus/students/index.html" target="_blank">https://www.montgomerycollege.edu/coronavirus/students/index.html</a></p>
+	<p style="margin-top: 5px;"><a href="https://www.montgomerycollege.edu/coronavirus/students/index.html" target="_blank">https://www.montgomerycollege.edu/coronavirus/students/index.html</a></p>
 	
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">IN NEED OF FINANCIAL ASSISTANCE? </h3>
 	
-	<h4 style="margin:0;">Request Assistance Through CARES Act: </h4>
+	<h4>Request Assistance Through CARES Act: </h4>
 	
-	<p><a href="https://www.montgomerycollege.edu/coronavirus/federal-cares-emergency-assistance-request.html" target="_blank">https://www.montgomerycollege.edu/coronavirus/federal-cares-emergency-assistance-request.html</a></p>
+	<p style="margin-top: 5px;"><a href="https://www.montgomerycollege.edu/coronavirus/federal-cares-emergency-assistance-request.html" target="_blank">https://www.montgomerycollege.edu/coronavirus/federal-cares-emergency-assistance-request.html</a></p>
 	
-	<h4 style="margin:0;">MC Foundation: </h4>
-	<p><a href="https://www.montgomerycollege.edu/alumni-friends-donors/foundation/student-emergency-funding-request.html" target="_blank">https://www.montgomerycollege.edu/alumni-friends-donors/foundation/student-emergency-funding-request.html</a></p>
+	<h4>MC Foundation: </h4>
+	<p style="margin-top: 5px;"><a href="https://www.montgomerycollege.edu/alumni-friends-donors/foundation/student-emergency-funding-request.html" target="_blank">https://www.montgomerycollege.edu/alumni-friends-donors/foundation/student-emergency-funding-request.html</a></p>
 
 </section>
 <footer> 
 	<h3 style="background-color: #6A64A6; color: white; padding: 10px; border-radius: 3px;">INSTRUCTOR INFORMATION</h3>
-	<h4 style="margin: 0;">Instructor: Professor Katherine Hubley (she/her) </h4>
-	<h4 style="margin: 0;">E-mail: <a href="mailto: Katherine.Hubley@montgomerycollege">Katherine.Hubley@montgomerycollege.edu  </a></h4>
+	<h4>Instructor: Professor Katherine Hubley (she/her) </h4>
+	<p style="margin: 0;">E-mail: <a href="mailto: Katherine.Hubley@montgomerycollege">Katherine.Hubley@montgomerycollege.edu  </a></p>
 
 	
 	
@@ -897,7 +963,7 @@ ul {
 	
 	
 	<br>&nbsp;
-	<p style="font-size: 80%; text-align: center;" margin-top: 25px;>MONTGOMERY COLLEGE   /   VISUAL, PERFORMING &amp; MEDIA ARTS AREA <br> MEDIA ARTS &amp; TECHNOLOGIES DEPARTMENT   /   GRAPHIC DESIGN DISCIPLINE   <br>   FALL 2021   &bull;   GDES 140   &bull;  Introduction to Animation    </p> 
+	<p style="font-size: 80%; text-align: center;" margin-top: 25px;>MONTGOMERY COLLEGE   /   VISUAL, PERFORMING &amp; MEDIA ARTS AREA <br> MEDIA ARTS &amp; TECHNOLOGIES DEPARTMENT   /   GRAPHIC DESIGN DISCIPLINE   <br>   FALL 2021   &bull;   GDES 140   &bull;  Introduction to Animation    </p> <p style="font-size: 80%; text-align: center; line-height: 1.2em;">Page created and maintained by Professor Katherine Hubley to provide easy access to information on course requirements and resources for her GDES 140 Introduction to Animation Students.  </p>
 	
 	
 </footer>  
